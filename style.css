@@ -501,7 +501,7 @@ section .food-div h3 {
     justify-content: center;
     align-items: center;
     height: 500px;
-    width: 1170px;
+    width: 1172px;
     color: white;
     background-size: cover;
     background-image: url("./images/Rectangle\ 2.png");
@@ -538,10 +538,12 @@ footer>.top-footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-top: 10px;
 }
 
 footer>.top-footer>div>p {
     font-size: 13px;
+    
 }
 
 footer h4 {
@@ -580,4 +582,20 @@ footer a {
 .footer-form button{
    margin-top: 0px !important;
    margin-left:  7px;
+}
+
+footer > .bottom-footer > p {
+    text-align: center;
+    padding: 30px  0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.36px;
+}
+
+.top-footer .icon {
+    margin-top: 10px;
+    width: 17.84px;
+    height: 17.84px;
+    left: 171px;
+    
 }
